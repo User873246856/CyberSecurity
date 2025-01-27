@@ -1,10 +1,18 @@
 [
-    { "op": "URL Decode",
-      "args": [] },
-    { "op": "From Base64",
-      "args": ["A-Za-z0-9+/=", false] },
-    { "op": "To Base64",
-      "args": ["A-Za-z0-9+/="] },
-    { "op": "URL Encode",
-      "args": [true] }
+  {
+    "operation": "URL Decode",
+    "arguments": []
+  },
+  {
+    "operation": "From Base64",
+    "arguments": ["A-Za-z0-9+/=", false]
+  },
+  {
+    "operation": "To Base64",
+    "arguments": ["A-Za-z0-9+/="]
+  },
+  {
+    "operation": "URL Encode",
+    "arguments": [true]
+  }
 ]
